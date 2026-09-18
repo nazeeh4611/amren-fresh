@@ -36,7 +36,7 @@ export const env = {
   vapid: {
     publicKey: process.env.VAPID_PUBLIC_KEY ?? "",
     privateKey: process.env.VAPID_PRIVATE_KEY ?? "",
-    subject: process.env.VAPID_SUBJECT ?? "mailto:admin@amrenfresh.ae",
+    subject: process.env.VAPID_SUBJECT ?? "mailto:hello@amren.ae",
   },
   isProduction,
 };
